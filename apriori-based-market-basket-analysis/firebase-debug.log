@@ -1,0 +1,57 @@
+[debug] [2025-11-14T08:52:18.166Z] ----------------------------------------------------------------------
+[debug] [2025-11-14T08:52:18.171Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-11-14T08:52:18.172Z] CLI Version:   14.25.0
+[debug] [2025-11-14T08:52:18.172Z] Platform:      win32
+[debug] [2025-11-14T08:52:18.173Z] Node Version:  v20.10.0
+[debug] [2025-11-14T08:52:18.173Z] Time:          Fri Nov 14 2025 14:22:18 GMT+0530 (India Standard Time)
+[debug] [2025-11-14T08:52:18.173Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Sharvari_extra\Market Basket Analysis\apriori-based-market-basket-analysis
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-11-14T08:52:44.492Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-14T08:52:44.493Z] > authorizing via signed-in user (ksharvari2003@gmail.com)
+[debug] [2025-11-14T08:52:44.495Z] Checked if tokens are valid: true, expires at: 1763113891097
+[debug] [2025-11-14T08:52:44.496Z] Checked if tokens are valid: true, expires at: 1763113891097
+[debug] [2025-11-14T08:52:44.498Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-11-14T08:52:46.750Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-11-14T08:52:46.751Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] 
+=== Hosting Setup
+[debug] [2025-11-14T08:52:54.854Z] Checked if tokens are valid: true, expires at: 1763113891097
+[debug] [2025-11-14T08:52:54.854Z] Checked if tokens are valid: true, expires at: 1763113891097
+[debug] [2025-11-14T08:52:54.855Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/market-basket-analysis-b1694 [none]
+[debug] [2025-11-14T08:52:55.853Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/market-basket-analysis-b1694 200
+[debug] [2025-11-14T08:52:55.854Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/market-basket-analysis-b1694 {"projectId":"market-basket-analysis-b1694","projectNumber":"762814490336","displayName":"Market basket analysis","name":"projects/market-basket-analysis-b1694","resources":{"hostingSite":"market-basket-analysis-b1694"},"state":"ACTIVE","etag":"1_319ec24f-ce70-4236-96e0-665a13e0d3bc"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-11-14T08:56:29.461Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:514:28)
+    at Interface.emit (node:domain:488:12)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:264:20)
+    at ReadStream.emit (node:events:526:35)
+    at ReadStream.emit (node:domain:488:12)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+[error] 
+[error] Error: An unexpected error has occurred.
