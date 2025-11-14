@@ -14,9 +14,9 @@ jobs:
 
       - name: Install & Build Frontend
         run: |
-          cd apriori-based-market-basket-analysis/frontend
           npm install
           npm run build
+        working-directory: apriori-based-market-basket-analysis/frontend
 
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
@@ -25,4 +25,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MARKET_BASKET_ANALYSIS_B1694 }}
           projectId: market-basket-analysis-b1694
           channelId: live
-          entryPoint: frontend
+          entryPoint: apriori-based-market-basket-analysis/frontend/dist
