@@ -25,4 +25,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MARKET_BASKET_ANALYSIS_B1694 }}
           projectId: market-basket-analysis-b1694
           channelId: live
-          entryPoint: apriori-based-market-basket-analysis/frontend
+          entryPoint: frontend
