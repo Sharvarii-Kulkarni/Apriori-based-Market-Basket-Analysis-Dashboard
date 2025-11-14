@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "apriori-based-market-basket-analysis/frontend/dist",
     "ignore": [
       "firebase.json",
       "**/.*",
