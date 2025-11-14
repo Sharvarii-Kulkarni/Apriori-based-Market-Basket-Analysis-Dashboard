@@ -1,4 +1,3 @@
-# Deploy to Firebase Hosting on merge
 name: Deploy to Firebase Hosting on merge
 
 on:
@@ -26,4 +25,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MARKET_BASKET_ANALYSIS_B1694 }}
           projectId: market-basket-analysis-b1694
           channelId: live
-          entryPoint: ./
+          entryPoint: apriori-based-market-basket-analysis/frontend
